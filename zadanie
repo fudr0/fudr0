@@ -1,0 +1,41 @@
+from random import seed
+
+
+from random import randint
+
+
+
+def test_tb(n):
+
+
+    seed(1)
+
+    total_score = 0
+
+    for i in range(n):
+
+        one = randint(3, 10)
+
+        two = randint(2, 10)
+
+        answer =int(input((three, "*", two, "=")))
+
+        if answer == one*two:
+            total_score = total_score + (100/n)
+
+
+
+
+
+
+
+
+
+
+    print("Twój wynik:",total_score,"%")
+
+
+
+
+
+test_tb(2)
